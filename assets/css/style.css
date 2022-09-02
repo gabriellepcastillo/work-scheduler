@@ -1,0 +1,115 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+ .cleared {
+  border-radius: 5px;
+  border: #ff6961 1px solid;
+  background-color: #ffffff;
+}
+
+.event-input {
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.btn  {
+  border: 1px solid rgb(85, 227, 85);
+  padding: 0;
+  background-color: #ffffff;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+  width: 1000px;
+  text-align: right;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  display: block;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card-header {
+  border: none;
+  float: left;
+}
+
+.form-control {
+  border: 1px solid rgb(174, 157, 157);
+}
+
+textarea.form-control{
+  text-align: left;
+}
+
+.row {
+  border-top: 1px solid black;
+  display: block;
+}
+
+.row .text {
+  justify-content: end;
+}
+
+.time {
+  background-color: lightblue;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  text-align: center;
+  padding: 30px;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+  width: 100px;
+  font: 25px;
+}
+
+.text {
+  text-align: right;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+  border-radius: 5px;
+}
+
